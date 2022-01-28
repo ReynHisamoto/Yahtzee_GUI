@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_vertical"
+                android:text="Roll" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Empty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/Ones"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ones" />
+                <TextView
+                    android:id="@+id/Twos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Twos" />
+
+                <TextView
+                    android:id="@+id/Threes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Threes" />
+                <TextView
+                    android:id="@+id/Fours"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fours" />
+
+                <TextView
+                    android:id="@+id/Fives"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fives" />
+                <TextView
+                    android:id="@+id/Sixes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sixes" />
+
+                <TextView
+                    android:id="@+id/Sum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sum" />
+                <TextView
+                    android:id="@+id/Bonus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bonus" />
+
+                <TextView
+                    android:id="@+id/ThreeOfAKind"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3_OfAKind" />
+                <TextView
+                    android:id="@+id/FourOfAKind"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4_OfAKind" />
+
+                <TextView
+                    android:id="@+id/FullHouse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FullHouse" />
+                <TextView
+                    android:id="@+id/SmallStraight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="S_Straight" />
+
+                <TextView
+                    android:id="@+id/LargeStraight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="L_Straight" />
+                <TextView
+                    android:id="@+id/Chance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chance" />
+
+                <TextView
+                    android:id="@+id/Yahtzee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yahtzee" />
+                <TextView
+                    android:id="@+id/TotalScore"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TotalScore" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical"></LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
